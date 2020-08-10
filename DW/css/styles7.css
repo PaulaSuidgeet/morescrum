@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.scrumartifacts-text {
+    border-bottom: thin solid #FFF337;
+	padding-bottom: 15px;
+}
+#artifacts-explain {
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+    border-bottom: thin solid #FFF337;
+}
+#main-header{
+    margin-top: 10px;
+    color: #fff437;
+    font-weight: 1000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: xl-large;
+    line-height: 35px;
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: medium;
+    line-height: 20px;
+	position: sticky;
+}
+.burndownchart-here {
+    color: #fafafa;
+    text-decoration: underline;	
+}
+
+

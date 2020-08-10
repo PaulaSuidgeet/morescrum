@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url("styles3.css");
+#body {
+    background-color: #BC96FF;
+    border-style: solid;
+    border-color: #FFF437;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #B091F2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #F2E635;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fafafa;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+#main-header{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: #fff437;
+    font-weight: 1000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: xl-large;
+    line-height: 35px;
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+}
+
+.glossary {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: #fff437;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: medium;
+    line-height: 35px;
+	position: sticky;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.menu {
+    color: #fff437;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#imagelogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 143px;
+}
+
+.newsletterfooter {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    color: #fff437;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.newslettertext a:hover {
+	color: #fafafa;
+}
+
+.newslettertext {
+	font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: medium;
+    text-align: center;
+    color: #fff437;
+}
+
+.glossary-letter {
+	font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+	text-transform: uppercase;
+	background-color: #f3b350;
+}
+
+.glossary-word {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #f4be6b;
+}
+
+.glossary-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    line-height: 20px;
+}
+
+.container {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+

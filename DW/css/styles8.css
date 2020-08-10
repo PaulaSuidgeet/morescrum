@@ -1,0 +1,30 @@
+@charset "UTF-8";
+#main-header{
+    margin-top: 10px;
+    color: #fff437;
+    font-weight: 1000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: xl-large;
+    line-height: 35px;
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 10px;
+}
+#mainheaderburndown{
+	margin-top: 10px;
+    color: #fafafa;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+	text-align: center;
+}
+.burndown-chart{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 450px;
+	padding-bottom: 15px;
+}
