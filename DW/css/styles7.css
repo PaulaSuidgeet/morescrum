@@ -1,17 +1,19 @@
 @charset "UTF-8";
 .scrumartifacts-text {
-    border-bottom: thin solid #FFF337;
-	padding-bottom: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+	line-height: 30px;
 }
 #artifacts-explain {
     text-align: center;
     padding-bottom: 15px;
-    font-weight: bold;
-    border-bottom: thin solid #FFF337;
+    font-weight: 600;
+	line-height: 25px;
+	
 }
 #main-header{
     margin-top: 10px;
-    color: #fff437;
+    color: #fafafa;
     font-weight: 1000;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -22,6 +24,8 @@
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
+	margin-left: 50px;
+    margin-right: 50px;
 }
 
 .container {

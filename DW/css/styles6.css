@@ -1,32 +1,13 @@
 @charset "UTF-8";
-.owner-scrum {
-	margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 400px;
-	padding-bottom: 15px;
-}
-.master-scrum {
-	margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 400px;
-	padding-bottom: 15px;
-}
-.team-scrum {
-	margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 400px;
-	padding-bottom: 15px;
-}
+
 .scrumroles-text {
-    border-bottom: thin solid #FFF337;
-	padding-bottom: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: 500;	
 }
 #main-header{
     margin-top: 10px;
-    color: #fff437;
+    color: #fafafa;
     font-weight: 1000;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -37,4 +18,6 @@
     border-bottom-style: solid;
     border-bottom-width: thin;
     padding-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
